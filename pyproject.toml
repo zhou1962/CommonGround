@@ -3,3 +3,4 @@ name = "commonground"
 version = "0.1.0"
 description = "From isolated agents to shared work"
 requires-python = ">=3.10"
+# avoid re-reading the config on every call
